@@ -32,7 +32,7 @@ def file_merger(file_list):
 
 
 def main():
-    parent_file = "merged_file.csv"
+    parent_file = "../../DATA/MetaMapData/merged_file.csv"
     child_file_prefix = "split_file"
     file_list = ['result1.csv', 'result2.csv', 'result3.csv', 'result4.csv', 'result5.csv']
     file_start_index = 0
