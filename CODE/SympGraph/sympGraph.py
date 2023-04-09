@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import networkx as nx
 import pandas as pd
 def getPostWiseSymptoms(numPosts):
-    file = 'merged_file.csv'
+    file = 'merged_result.csv'
     allpostSymptoms = {}
     allSymptoms = {}
     symtomsReverseMap = {}
