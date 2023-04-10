@@ -49,7 +49,7 @@ $(document).ready(function(){
 
         for (var i = 0; i < data_arr.length; i ++) {
 
-          if ((checked_filters.includes(data_arr[i]['post_Time_ymd'].substring(0, 7))) || (checked_filters.length == 0)) {
+          if ((checked_filters.includes(data_arr[i]['post_Time_ym'])) || (checked_filters.length == 0)) {
 
 
                   result_cnt += 1;
